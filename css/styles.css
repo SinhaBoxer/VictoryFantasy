@@ -1,0 +1,147 @@
+/*ID's*/
+#pre-img{
+    width:50%;
+    -webkit-filter: drop-shadow(0px 0px 0px #222);
+    filter: drop-shadow(0px 10px 10px rgb(44, 44, 44));
+}
+#dimg{
+    width: 100%;
+    -webkit-filter: drop-shadow(0px 0px 0px #222);
+    filter: drop-shadow(0px 10px 10px rgb(90, 90, 90));
+}
+
+/*Classes'*/
+.navbar-brand{
+
+    color: #ffd87d !important;
+}
+
+.nav-link:hover{
+    color: #ffb300 !important;
+}
+.banner{
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+.section{
+    color: #ffffff;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+.faq{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 100px;
+}
+.grad{
+    background: rgb(232,204,13);
+    background-size: cover;
+    background-image: url("../media/Victory-images/client-bg.png");
+}
+.grad2{
+    background-size:cover;
+    background-image:radial-gradient(100% 44.5% at 50% 50%, #3c0458 0%, #340248 33.33%, #1f0028 100%);
+}
+
+.simg{
+    padding: 5%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.timg{
+    width: 50%;
+    border-radius: 25%;
+}
+
+.rimg{
+    width: max(8vw,12vh);
+    padding: 1%;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+  }
+.d-item{
+    padding: 2%;
+}
+
+.icons{
+    width: max(3vw,3vh);
+    filter: invert();
+}
+
+.ficons{
+    filter: invert();
+    width: 10%;
+    margin: auto;
+    padding: 1%;
+    
+}
+.ficons:hover{
+    filter: invert(0.50);
+}
+.accordion-button:not(.collapsed) {
+    color: #ffb300;
+    background-color: transparent;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0.25);
+}
+.accordion-button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+}
+.accordion-button::after{
+    filter: invert();
+}
+.accordion-button:hover{
+    color: #ffb300;
+    font-weight: bold;
+    background-color: transparent;
+}
+.accordion-item {
+    color: white;
+
+    background-color: transparent;
+}
+.footer{
+    text-align: center;
+    background-image: url("../media/Victory-images/footer-bg.png");
+    background-size: 100% 100%;
+}
+.flinks{
+    color: #ffffff;
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.flinks:hover{
+    color: #ffb300;
+}
+.partners{
+    padding: 5px;
+    width: 25%;
+    border-radius: 30px;
+}
+/*Groups*/
+h1, h3{
+    opacity: 1;
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+}

@@ -1,0 +1,1 @@
+Write code for designing the written part on the left side of the slider-dec.png image as per slider-dec_demo_with_context.png image.
